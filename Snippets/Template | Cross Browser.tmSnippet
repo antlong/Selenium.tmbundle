@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>#!/usr/bin/env python
+"""This is a test suite for the submission form."""
+import unittest, time, os, HTMLTestRunner
+from selenium import selenium
+do_logging = ${1}
+URL = "${2}"
+
+class SeleniumGlobals(unittest.TestCase):
+    """This class contains generic setUp and tearDown methods."""
+    def setUp(self):
+        #global browsers
+        """This is a generic setUp method which will start the browser."""
+        self.verificationErrors = []
+        self.selenium = selenium(*self.browser)
+        self.selenium.start()
+    
+    
+    def tearDown(self):
+        """This is a generic method that kills the browser when instantiated."""
+        self.selenium.stop()
+    
+
+class TestGoogle(SeleniumGlobals):
+    """Test case ${3}"""
+    def test_${3}(self):
+        self.selenium.open("")
+    
+if __name__ == "__main__":
+    def set_testcase_browser(obj, browser):
+        try:
+            child_tests = obj._tests
+        except AttributeError:
+            obj.browser = browser
+            return
+        for child in child_tests:
+            set_testcase_browser(child, browser)
+    suite = unittest.TestSuite()
+    loader = unittest.TestLoader()
+    def _browsers():
+        browsers = [
+            ["localhost", 4444, "*firefox", URL],
+            ["localhost", 4444, "*safari", URL],
+            ]
+        return browsers
+    browsers = _browsers()    
+    for browser in browsers:
+        browser_suite = loader.loadTestsFromTestCase(TestGoogle)
+        set_testcase_browser(browser_suite, browser)
+        suite.addTest(browser_suite)
+        #browser_suite = loader.loadTestsFromTestCase(TESTCLASS2)
+        #set_testcase_browser(browser_suite, browser)
+        #suite.addTest(browser_suite)
+        #browser_suite = loader.loadTestsFromTestCase(TESTCLASS3)
+        #set_testcase_browser(browser_suite, browser)
+        #suite.addTest(browser_suite)
+    if do_logging == True:
+        file_name = str(time.strftime("%I_%M_%S_%p", time.localtime()))
+        folder_name = (os.path.join("Logs/") + str(time.strftime("%b-%e-%Y") + "/"))
+        if not os.path.exists(os.path.dirname(folder_name)):
+            os.makedirs(folder_name)
+            file_folder_name = (folder_name + file_name)
+        fp = file(file_folder_name + '_results.html', 'wb')
+        runner = HTMLTestRunner.HTMLTestRunner(
+                    stream = fp,
+                    title = 'TITLE HERE',
+                    description = str(time.strftime("%I:%M:%S %p", time.localtime())) + 'EXTRA INFO',
+                    )
+        runner.run(suite)
+    else:
+        runner = unittest.TextTestRunner()
+        runner.run(suite)</string>
+	<key>name</key>
+	<string>Template | Cross Browser</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>temp.large</string>
+	<key>uuid</key>
+	<string>B417982C-F07D-4D81-8B20-0917F0CEC6DB</string>
+</dict>
+</plist>
