@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.get_confirmation()</string>
+	<key>name</key>
+	<string>get_confirmation</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>gconf</string>
+	<key>uuid</key>
+	<string>D07F90B8-355F-44B3-BA09-97495756DEDA</string>
+</dict>
+</plist>

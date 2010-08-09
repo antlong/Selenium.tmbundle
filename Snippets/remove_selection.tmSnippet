@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.remove_selection("${1}", "${2}")</string>
+	<key>name</key>
+	<string>remove_selection</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>rsel</string>
+	<key>uuid</key>
+	<string>AF2468F3-5F76-4474-A6DF-6098CA5C09BC</string>
+</dict>
+</plist>

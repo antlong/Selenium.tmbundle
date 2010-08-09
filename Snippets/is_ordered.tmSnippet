@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.is_ordered("${1}", "${2}")</string>
+	<key>name</key>
+	<string>is_ordered</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>io</string>
+	<key>uuid</key>
+	<string>9C6CDFED-DA2F-4685-9AF5-08FF8F221797</string>
+</dict>
+</plist>

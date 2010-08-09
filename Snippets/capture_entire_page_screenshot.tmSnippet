@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.capture_entire_page_screenshot(${1}, ${2})</string>
+	<key>name</key>
+	<string>capture_entire_page_screenshot</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>ep</string>
+	<key>uuid</key>
+	<string>5B8EEB2C-2709-4C2E-BBCA-E49712EDC152</string>
+</dict>
+</plist>

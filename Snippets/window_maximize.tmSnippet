@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.window_maximize()</string>
+	<key>name</key>
+	<string>window_maximize</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>wmax</string>
+	<key>uuid</key>
+	<string>D95FE78D-2FC9-4176-B472-5B5BE76F0388</string>
+</dict>
+</plist>

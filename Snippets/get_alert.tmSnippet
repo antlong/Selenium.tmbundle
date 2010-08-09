@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.get_alert()</string>
+	<key>name</key>
+	<string>get_alert</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>gal</string>
+	<key>uuid</key>
+	<string>D6EB29E0-5C9E-47A5-B19E-9F2C5E949F76</string>
+</dict>
+</plist>

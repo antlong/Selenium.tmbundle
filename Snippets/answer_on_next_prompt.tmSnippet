@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.answer_on_next_prompt(${1})</string>
+	<key>name</key>
+	<string>answer_on_next_prompt</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>aonp</string>
+	<key>uuid</key>
+	<string>B6239C3F-6D58-4B65-821C-D335A2333871</string>
+</dict>
+</plist>

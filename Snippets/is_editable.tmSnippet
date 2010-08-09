@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.is_editable("${1}")</string>
+	<key>name</key>
+	<string>is_editable</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>ie</string>
+	<key>uuid</key>
+	<string>AC8ADB35-9842-4B16-BECE-3C6892D608CF</string>
+</dict>
+</plist>

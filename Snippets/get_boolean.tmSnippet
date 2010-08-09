@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.get_boolean("${1}", "${2}")</string>
+	<key>name</key>
+	<string>get_boolean</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>gboo</string>
+	<key>uuid</key>
+	<string>60809D13-FC7A-4FF8-B94F-C057C75BAA77</string>
+</dict>
+</plist>

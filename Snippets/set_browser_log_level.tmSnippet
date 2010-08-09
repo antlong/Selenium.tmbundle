@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.set_browser_log_level("${1}")</string>
+	<key>name</key>
+	<string>set_browser_log_level</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>sbll</string>
+	<key>uuid</key>
+	<string>C243BB8E-D06F-4F7A-99D2-7E3884C4E89C</string>
+</dict>
+</plist>

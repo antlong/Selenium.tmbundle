@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.control_key_up()</string>
+	<key>name</key>
+	<string>control_key_up</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>ckd</string>
+	<key>uuid</key>
+	<string>0DA8B578-0A9C-474A-9333-E9E4DF41A246</string>
+</dict>
+</plist>

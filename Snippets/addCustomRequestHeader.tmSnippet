@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.addCustomRequestHeader(${1}, ${2})</string>
+	<key>name</key>
+	<string>addCustomRequestHeader</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>addcrh</string>
+	<key>uuid</key>
+	<string>A7A57952-4980-4AD9-BD67-DB45D7FCB623</string>
+</dict>
+</plist>

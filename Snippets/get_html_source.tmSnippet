@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.get_html_source()</string>
+	<key>name</key>
+	<string>get_html_source</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>gehtml</string>
+	<key>uuid</key>
+	<string>5B235118-A51A-41C5-819F-3325FEB4018A</string>
+</dict>
+</plist>

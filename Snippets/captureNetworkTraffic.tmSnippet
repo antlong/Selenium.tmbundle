@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.captureNetworkTraffic(${1})</string>
+	<key>name</key>
+	<string>captureNetworkTraffic</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>cnt</string>
+	<key>uuid</key>
+	<string>D409ADF9-42DC-4059-8C37-F07BB177AC1A</string>
+</dict>
+</plist>

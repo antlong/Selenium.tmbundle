@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.add_selection(${1}, ${2})</string>
+	<key>name</key>
+	<string>add_selection</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>addsel</string>
+	<key>uuid</key>
+	<string>031F1190-7F70-45F8-8831-B3BE2A82812A</string>
+</dict>
+</plist>

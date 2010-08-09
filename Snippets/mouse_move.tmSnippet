@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.mouse_move("${1}")</string>
+	<key>name</key>
+	<string>mouse_move</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>mm</string>
+	<key>uuid</key>
+	<string>2FC96159-6DF0-4402-A3E9-B8D83B10146C</string>
+</dict>
+</plist>

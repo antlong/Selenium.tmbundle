@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.is_cookie_present("${1}")</string>
+	<key>name</key>
+	<string>is_cookie_present</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>icp</string>
+	<key>uuid</key>
+	<string>3DFD1E0A-846E-421D-8624-1FAA218B01B3</string>
+</dict>
+</plist>

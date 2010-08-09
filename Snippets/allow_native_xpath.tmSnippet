@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>self.selenium.allow_native_xpath(${1}, ${2})</string>
+	<key>name</key>
+	<string>allow_native_xpath</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>anxpath</string>
+	<key>uuid</key>
+	<string>11A66E79-F9C3-4376-BFC8-F2FF26714093</string>
+</dict>
+</plist>
