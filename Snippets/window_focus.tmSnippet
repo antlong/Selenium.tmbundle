@@ -3,15 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
+<<<<<<< HEAD
 	<string>`if [ "$TM_CURRENT_LINE" != "" ]
 	then echo "self."
 fi`selenium.window_focus()</string>
+=======
+	<string>self.selenium.window_focus()</string>
+>>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>name</key>
 	<string>window_focus</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
+<<<<<<< HEAD
 	<string>wf</string>
+=======
+	<string>wfoc</string>
+>>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>uuid</key>
 	<string>01A5C42E-AC1D-4076-9133-74EA896481D2</string>
 </dict>

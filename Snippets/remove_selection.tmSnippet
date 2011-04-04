@@ -3,15 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
+<<<<<<< HEAD
 	<string>`if [ "$TM_CURRENT_LINE" != "" ]
 	then echo "self."
 fi`selenium.remove_selection("${1}", "${2}")</string>
+=======
+	<string>self.selenium.remove_selection("${1}", "${2}")</string>
+>>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>name</key>
 	<string>remove_selection</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
+<<<<<<< HEAD
 	<string>rs</string>
+=======
+	<string>rsel</string>
+>>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>uuid</key>
 	<string>AF2468F3-5F76-4474-A6DF-6098CA5C09BC</string>
 </dict>

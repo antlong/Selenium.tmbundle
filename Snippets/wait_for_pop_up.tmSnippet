@@ -3,15 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
+<<<<<<< HEAD
 	<string>`if [ "$TM_CURRENT_LINE" != "" ]
 	then echo "self."
 fi`selenium.wait_for_pop_up("${1}", ${2})</string>
+=======
+	<string>self.selenium.wait_for_pop_up("${1}", ${2})</string>
+>>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>name</key>
 	<string>wait_for_pop_up</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
+<<<<<<< HEAD
 	<string>wfp</string>
+=======
+	<string>wfpup</string>
+>>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>uuid</key>
 	<string>3F53CF6A-4E7B-422E-BC58-6D2D014E1B1C</string>
 </dict>

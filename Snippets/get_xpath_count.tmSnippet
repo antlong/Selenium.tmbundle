@@ -3,9 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
+<<<<<<< HEAD
 	<string>`if [ "$TM_CURRENT_LINE" != "" ]
 	then echo "self."
 fi`selenium.get_xpath_count("${1}")</string>
+=======
+	<string>self.selenium.get_xpath_count("${1}")</string>
+>>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>name</key>
 	<string>get_xpath_count</string>
 	<key>scope</key>

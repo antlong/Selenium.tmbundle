@@ -3,15 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
+<<<<<<< HEAD
 	<string>`if [ "$TM_CURRENT_LINE" != "" ]
 	then echo "self."
 fi`selenium.add_location_strategy(${1}, ${2})</string>
+=======
+	<string>self.selenium.add_location_strategy(${1}, ${2})</string>
+>>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>name</key>
 	<string>add_location_strategy</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
+<<<<<<< HEAD
 	<string>als</string>
+=======
+	<string>addls</string>
+>>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>uuid</key>
 	<string>89F49B07-96AE-4705-8658-3AFCD6E7D5CC</string>
 </dict>
