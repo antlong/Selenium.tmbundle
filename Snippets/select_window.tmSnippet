@@ -3,23 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-<<<<<<< HEAD
 	<string>`if [ "$TM_CURRENT_LINE" != "" ]
 	then echo "self."
 fi`selenium.select_window("${1}")</string>
-=======
-	<string>self.selenium.select_window("${1}")</string>
->>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>name</key>
 	<string>select_window</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
-<<<<<<< HEAD
 	<string>sw</string>
-=======
-	<string>swin</string>
->>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>uuid</key>
 	<string>7B96C7B9-AE0D-4A5D-AEFF-C5A90D9DE38D</string>
 </dict>

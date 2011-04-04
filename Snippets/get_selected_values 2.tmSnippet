@@ -5,14 +5,14 @@
 	<key>content</key>
 	<string>`if [ "$TM_CURRENT_LINE" != "" ]
 	then echo "self."
-fi`selenium.capture_entire_page_screenshot_to_string(${1}, "background=#${2}")</string>
+fi`self.selenium.get_selected_values("${1}")</string>
 	<key>name</key>
-	<string>capture_entire_page_screenshot_to_string</string>
+	<string>get_selected_values</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
-	<string>css</string>
+	<string>gv</string>
 	<key>uuid</key>
-	<string>A68BFA09-20C3-42E3-AF73-46FE3B35D784</string>
+	<string>DBE9C93B-58B6-472B-AEBA-A2BBB35D1CF2</string>
 </dict>
 </plist>

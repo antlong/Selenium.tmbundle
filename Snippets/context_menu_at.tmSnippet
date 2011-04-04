@@ -3,23 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-<<<<<<< HEAD
 	<string>`if [ "$TM_CURRENT_LINE" != "" ]
 	then echo "self."
 fi`selenium.context_menu("${1}", "${2}")</string>
-=======
-	<string>self.selenium.context_menu("${1}", "${2}")</string>
->>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>name</key>
 	<string>context_menu_at</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
-<<<<<<< HEAD
 	<string>cma</string>
-=======
-	<string>cmat</string>
->>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>uuid</key>
 	<string>CF698FF3-B745-42C1-B8E0-2501FE0D5065</string>
 </dict>

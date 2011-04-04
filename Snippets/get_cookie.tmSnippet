@@ -3,23 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-<<<<<<< HEAD
 	<string>`if [ "$TM_CURRENT_LINE" != "" ]
 	then echo "self."
 fi`selenium.get_cookie()</string>
-=======
-	<string>self.selenium.get_cookie()</string>
->>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>name</key>
 	<string>get_cookie</string>
 	<key>scope</key>
 	<string>source.python</string>
 	<key>tabTrigger</key>
-<<<<<<< HEAD
 	<string>gc</string>
-=======
-	<string>gcoo</string>
->>>>>>> 14f60f1087fcea60d037f0c27c0f8c03f6c4aa28
 	<key>uuid</key>
 	<string>0F140C64-E846-4C0F-91A0-29B68B7EA1AC</string>
 </dict>
