@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>`if [ "$TM_CURRENT_LINE" != "" ]
+	then echo "self."
+fi`selenium.ignore_attributes_without_value("${1}")</string>
+	<key>name</key>
+	<string>ignore_attributes_without_value</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>ig</string>
+	<key>uuid</key>
+	<string>B8B751AA-EC31-4DF4-9065-F5FE42133C9F</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>`if [ "$TM_CURRENT_LINE" != "" ]
+	then echo "self."
+fi`selenium.get_selected_label("${1}")</string>
+	<key>name</key>
+	<string>get_selected_label</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>gl</string>
+	<key>uuid</key>
+	<string>A0FF57BB-B7D9-4DA2-8AC4-38288D59D79A</string>
+</dict>
+</plist>

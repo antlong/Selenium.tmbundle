@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>`if [ "$TM_CURRENT_LINE" != "" ]
+	then echo "self."
+fi`selenium.set_mouse_speed("${1}")</string>
+	<key>name</key>
+	<string>set_mouse_speed</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>sms</string>
+	<key>uuid</key>
+	<string>A3AFAB47-DACB-4850-97FC-18785571C331</string>
+</dict>
+</plist>

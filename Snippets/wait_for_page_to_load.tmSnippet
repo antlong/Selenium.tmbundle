@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>`if [ "$TM_CURRENT_LINE" != "" ]
+	then echo "self."
+fi`selenium.wait_for_page_to_load("${1:}")</string>
+	<key>name</key>
+	<string>wait_for_page_to_load</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>wfp</string>
+	<key>uuid</key>
+	<string>AF792DB8-3B96-4A21-9D28-6F3EF255CF28</string>
+</dict>
+</plist>
