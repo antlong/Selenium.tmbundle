@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>`if [ "$TM_CURRENT_LINE" != "" ]
+	then echo "self."
+fi`selenium.capture_entire_page_screenshot_to_string(${1}, "background=#${2}")</string>
+	<key>name</key>
+	<string>capture_entire_page_screenshot_to_string</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>css</string>
+	<key>uuid</key>
+	<string>A68BFA09-20C3-42E3-AF73-46FE3B35D784</string>
+</dict>
+</plist>

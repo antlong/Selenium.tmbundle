@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>`if [ "$TM_CURRENT_LINE" != "" ]
+	then echo "self."
+fi`selenium.get_number("${1}", "${2}")</string>
+	<key>name</key>
+	<string>get_number</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>gnum</string>
+	<key>uuid</key>
+	<string>EA9CFEE0-F065-429A-9253-2B55391C2E67</string>
+</dict>
+</plist>

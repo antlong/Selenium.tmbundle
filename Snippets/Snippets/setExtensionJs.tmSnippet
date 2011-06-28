@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>`if [ "$TM_CURRENT_LINE" != "" ]
+	then echo "self."
+fi`selenium.setExtensionJs("${1}")</string>
+	<key>name</key>
+	<string>setExtensionJs</string>
+	<key>scope</key>
+	<string>source.python</string>
+	<key>tabTrigger</key>
+	<string>sejs</string>
+	<key>uuid</key>
+	<string>2A1E86B0-6924-4D5E-BCFD-E7300908E6D2</string>
+</dict>
+</plist>
